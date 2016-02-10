@@ -1,4 +1,4 @@
-# /home/tlhunter/.vim/vimrc
+# /home/palra/.vim/vimrc
 
 ![Screenshot](./screenshot.png "Screenshot of this .vimrc in action")
 
@@ -14,7 +14,7 @@ You can run `git pull` inside of `~/.vim` if you'd ever like to grab the latest 
 
 ```bash
 cd ~
-git clone git://github.com/tlhunter/vimrc.git .vim
+git clone --recursive git://github.com/palra/vimrc.git .vim
 ln -s ~/.vim/vimrc ~/.vimrc # Optional, needed for some VIM installations
 ```
 
@@ -23,7 +23,7 @@ ln -s ~/.vim/vimrc ~/.vimrc # Optional, needed for some VIM installations
 This method might be more sane. Simply downlaod the latest version, extract to `~/.vim`, and configure to your liking.
 
 ```bash
-wget https://github.com/tlhunter/vimrc/archive/master.zip
+wget https://github.com/palra/vimrc/archive/master.zip
 ```
 
 ## Features
