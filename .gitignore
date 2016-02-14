@@ -1,4 +1,6 @@
 sessions/*
+swap/*
+!swap/.gitkeep
 .netrwhist
 tags
 tags-ja

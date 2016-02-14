@@ -5,6 +5,7 @@ set nomodeline
 set viminfo='1000,f1,:1000,/1000
 set history=1000
 
+set backupdir=$HOME/.vim/swap
 let pair_program_mode = 0
 
 "------  Charset Init  ------
@@ -346,7 +347,7 @@ if has("gui_running")
 	endif
 else
 	set t_Co=256
-	colorscheme Mustang
+	colorscheme xian
 	set mouse=a
 endif
 
