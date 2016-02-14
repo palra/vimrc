@@ -5,7 +5,7 @@ set nomodeline
 set viminfo='1000,f1,:1000,/1000
 set history=1000
 
-set backupdir=$HOME/.vim/swap
+set dir=~/.vimswap//,/var/tmp//,/tmp//,.
 let pair_program_mode = 0
 
 "------  Charset Init  ------
